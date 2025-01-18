@@ -1,5 +1,5 @@
 :root {
-    --dark-color: #141211;
+    --dark-color: #000000;
     --light-color: #F9F8F7;
     --main-color: #01DCFF;
 
@@ -7,4 +7,6 @@
     
     --align-center: center;
     --justify-center: center;
+
+    --padding-small-mobile: 1.5rem;
 }

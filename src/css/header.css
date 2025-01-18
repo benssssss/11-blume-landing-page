@@ -21,6 +21,7 @@
 }
 
 .header-container .logotype .text-logo {
+    color: var(--dark-color);
     font-size: 1rem;
     font-weight: 700;
 }

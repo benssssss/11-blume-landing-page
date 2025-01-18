@@ -1,0 +1,19 @@
+.email-form form {
+    display: flex;
+    gap: .6rem;
+}
+
+.email-input, .send-button  {
+    background-color: var(--light-color);
+    padding: .5rem .9rem;
+    border-bottom: .3rem solid var(--main-color);
+    font-family: var(--main-font);
+    font-size: .7rem;
+}
+
+.send-button {
+    font-weight: 700;
+}
+
+
+
