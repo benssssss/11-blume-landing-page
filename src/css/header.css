@@ -1,0 +1,30 @@
+.header {
+    background: url(../images/pattern-white.png);
+    background-size: contain;
+}
+
+.header-container {
+    display: flex;
+    justify-content: var(--justify-center);
+}
+
+.header-container .logotype {
+    display: flex;
+    flex-direction: column;
+    align-items: var(--align-center);
+    gap: .3rem;
+    padding: .4rem;
+}
+
+.header-container .logotype .logo {
+    height: 35px;
+}
+
+.header-container .logotype .text-logo {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.header-container .menu {
+    display: none;
+}
