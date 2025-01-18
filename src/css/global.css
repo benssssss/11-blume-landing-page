@@ -9,6 +9,7 @@ html {
     color: var(--main-color);
 }
 
-.home-page {
+.home-page, .about-page {
     padding: var(--padding-small-mobile);
 }
+

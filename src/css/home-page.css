@@ -1,9 +1,9 @@
 .home-page {
     background-color: var(--dark-color);
-    height: 90vh;
+    height: 86vh;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
 }
 
 .home-page .home-page-container {
@@ -25,7 +25,7 @@
 .home-page-container .home-page-info {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 .home-page-info .texts .title,

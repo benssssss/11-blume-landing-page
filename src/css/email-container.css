@@ -6,7 +6,7 @@
 .email-input, .send-button  {
     background-color: var(--light-color);
     padding: .5rem .9rem;
-    border-bottom: .3rem solid var(--main-color);
+    border-bottom: var(--blue-border);
     font-family: var(--main-font);
     font-size: .7rem;
 }
