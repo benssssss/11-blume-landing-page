@@ -1,0 +1,48 @@
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.footer .logotype {
+    display: flex;
+    flex-direction: row;
+    align-items: var(--align-center);
+    gap: .3rem;
+    justify-content: start;
+}
+
+.footer .logotype .logo {
+    height: 55px;
+}
+
+.footer .logotype .text-logo {
+    color: var(--dark-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.icons {
+    color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+    height: 55px;
+}
+
+.icon {
+    font-size: 1.8rem;
+}
+
+.social-media-icons {
+    height: 27.5px;
+}
+
+.ctos-icon {
+    height: 20px;
+}
+
+.ctos-icon img {
+    height: 1.6rem;
+}

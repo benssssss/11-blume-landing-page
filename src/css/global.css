@@ -9,7 +9,9 @@ html {
     color: var(--main-color);
 }
 
-.home-page, .about-page {
+.home-page,
+.about-page,
+.servico-page,
+.main-footer {
     padding: var(--padding-small-mobile);
 }
-

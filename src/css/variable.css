@@ -8,7 +8,7 @@
     --align-center: center;
     --justify-center: center;
 
-    --padding-small-mobile: 1.5rem;
+    --padding-small-mobile: 3rem 1.5rem;
 
     --blue-border: .3rem solid var(--main-color);
 }

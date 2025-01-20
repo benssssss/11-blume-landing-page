@@ -1,0 +1,22 @@
+.servico-page {
+    background-color: var(--dark-color);
+}
+
+.servico-page .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.servico-page .title {
+    font-size: 2rem;
+}
+
+.servico-page .description {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.servico-page .email-form {
+    margin-top: 1.4rem;
+}

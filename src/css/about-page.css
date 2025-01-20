@@ -2,7 +2,6 @@
     background: url(../images/pattern-white.png);
     background-size: cover;
     color: var(--dark-color);
-    margin-top: 2rem;
 }
 
 .about-page-container {
