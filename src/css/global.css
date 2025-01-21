@@ -17,15 +17,22 @@ html {
 }
 
 .header,
-.footer {
+.main-footer {
     width: 320px;
 }
 
+.home-page,
+.about-page,
+.servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @media (min-width: 350px) {
 
     .header,
-    .footer {
+    .main-footer {
         width: 350px;
     }
 

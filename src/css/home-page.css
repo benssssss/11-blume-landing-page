@@ -48,7 +48,7 @@
     gap: 1rem;
 }
 
-@media (min-width: 350px){
+@media (min-width: 350px) {
     .home-page-info .texts .title {
         font-size: 3rem;
     }
