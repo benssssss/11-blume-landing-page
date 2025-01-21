@@ -1,9 +1,12 @@
 .email-form form {
     display: flex;
     gap: .6rem;
+    width: 270px;
+    justify-content: space-between;
 }
 
-.email-input, .send-button  {
+.email-input,
+.send-button {
     background-color: var(--light-color);
     padding: .5rem .9rem;
     border-bottom: var(--blue-border);
@@ -15,5 +18,23 @@
     font-weight: 700;
 }
 
+@media (min-width: 350px) {
+    .email-form form {
+        width: 300px;
+    }
 
+    .email-input {
+        width: 55%;
+    }
 
+    .send-button {
+        width: 50%;
+    }
+
+    .email-input,
+    .send-button {
+        padding: .7rem .9rem;
+        font-size: .9rem;
+    }
+
+}

@@ -78,3 +78,41 @@
     font-size: .7rem;
     color: var(--main-color);
 }
+
+@media (min-width: 350px) {
+    .about-card {
+        height: 175px;
+        width: 300px;
+    }
+
+    .comment-info .name,
+    .comment-info .ocupation-local {
+        font-size: .8rem;
+    }
+
+    .avatar {
+        height: 35px;
+    }
+
+    .people-info {
+        gap: .7rem;
+    }
+
+    .comment {
+        font-size: .85rem;
+        line-height: 1.1rem;
+    }
+
+    .about-page .about-page-info {
+        gap: 1.8rem;
+    }
+
+    .about-page-info .texts .title {
+        font-size: 2rem;
+    }
+    
+    .about-page-info .texts .description {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+}

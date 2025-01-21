@@ -9,9 +9,29 @@ html {
     color: var(--main-color);
 }
 
-.home-page,
-.about-page,
-.servico-page,
-.main-footer {
+.about-page-container,
+.home-page-container,
+.servico-page-container {
     padding: var(--padding-small-mobile);
+    width: 320px;
+}
+
+.header,
+.footer {
+    width: 320px;
+}
+
+
+@media (min-width: 350px) {
+
+    .header,
+    .footer {
+        width: 350px;
+    }
+
+    .about-page-container,
+    .home-page-container,
+    .servico-page-container {
+        width: 350px;
+    }
 }

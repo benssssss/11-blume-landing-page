@@ -1,4 +1,4 @@
-.servico-page {
+.servico {
     background-color: var(--dark-color);
 }
 
@@ -19,4 +19,14 @@
 
 .servico-page .email-form {
     margin-top: 1.4rem;
+}
+
+@media (min-width: 350px) {
+    .servico-page .title {
+        font-size: 2.3rem;
+    }
+
+    .servico-page .description {
+        font-size: 1.1rem;
+    }
 }
