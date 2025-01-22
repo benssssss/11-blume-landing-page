@@ -22,12 +22,6 @@
     height: 55px;
 }
 
-.footer .logotype .text-logo {
-    color: var(--dark-color);
-    font-size: 1.1rem;
-    font-weight: 700;
-}
-
 .icons {
     color: var(--dark-color);
     display: flex;
@@ -51,4 +45,34 @@
 
 .ctos-icon img {
     height: 1.6rem;
+}
+
+@media (min-width: 420px) {
+    .footer .logotype .logo {
+        height: 65px;
+    }
+}
+
+.main-footer {
+    padding: 1.5rem 2rem;
+}
+
+.icons {
+    height: 65px;
+}
+
+.social-media-icons {
+    height: 40px;
+}
+
+.ctos-icon {
+    height: 25px;
+}
+
+.icon {
+    font-size: 2.5rem;
+}
+
+.ctos-icon img {
+    height: 1.8rem;
 }

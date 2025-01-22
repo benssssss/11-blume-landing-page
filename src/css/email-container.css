@@ -38,3 +38,9 @@
     }
 
 }
+
+@media (min-width: 420px) {
+    .email-form form {
+        width: 350px;
+    }
+}

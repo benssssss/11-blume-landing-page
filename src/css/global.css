@@ -42,3 +42,18 @@ html {
         width: 350px;
     }
 }
+
+@media (min-width: 420px) {
+
+    .header,
+    .main-footer {
+        width: 420px;
+    }
+
+    .about-page-container,
+    .home-page-container,
+    .servico-page-container {
+        padding: var(--padding-medium-mobile);
+        width: 420px;
+    }
+}
