@@ -1,6 +1,6 @@
 .home-page {
     background-color: var(--dark-color);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,5 +79,19 @@
     .home-page-container .home-image img {
         height: 15rem;
         padding: 1rem;
+    }
+}
+
+@media (min-width: 550px) {
+    .home-page-info .texts .title {
+        font-size: 3.5rem;
+    }
+
+    .home-page-info .texts .description {
+        font-size: 1.7rem;
+    }
+
+    .home-page-container .home-image img {
+        height: 18rem;
     }
 }

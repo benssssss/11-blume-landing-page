@@ -36,11 +36,30 @@
         padding: .7rem .9rem;
         font-size: .9rem;
     }
-
 }
 
 @media (min-width: 420px) {
     .email-form form {
         width: 350px;
+    }
+}
+
+@media (min-width: 550px) {
+    .email-form form {
+        width: 480px;
+    }
+
+    .email-input,
+    .send-button {
+        padding: 1rem .9rem;
+        font-size: 1.2rem;
+    }
+
+    .email-input {
+        width: 60%;
+    }
+
+    .send-button {
+        width: 40%;
     }
 }

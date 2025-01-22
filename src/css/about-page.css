@@ -153,3 +153,18 @@
         font-size: 1rem;
     }
 }
+
+@media (min-width: 550px) {
+    .about-page-info .texts .title {
+        font-size: 3.25rem;
+    }
+
+    .about-page-info .texts .description {
+        font-size: 1.7rem;
+    }
+
+    .about-page-info .texts {
+        gap: 1.8rem;
+    }
+    
+}
