@@ -63,3 +63,14 @@
         width: 40%;
     }
 }
+
+@media (min-width: 720px) {
+
+    .email-form {
+        display: flex;
+        justify-content: center;
+    }
+    .email-form form {
+        width: 480px;
+    }
+}

@@ -76,3 +76,27 @@
         height: 1.8rem;
     }
 }
+
+@media (min-width: 720px) {
+    .main-footer {
+        padding: 1.5rem 4rem;
+    }
+
+    .icons,
+    .footer .logotype .logo {
+        height: 85px;
+    }
+
+    .social-media-icons {
+        height: 40px;
+    }
+
+    .icon {
+        font-size: 2.8rem;
+    }
+
+    .ctos-icon img {
+        height: 2.3rem;
+    }
+
+}

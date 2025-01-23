@@ -95,3 +95,18 @@
         height: 18rem;
     }
 }
+
+@media (min-width: 720px) {
+    .home-page-info .texts .title {
+        font-size: 4rem;
+    }
+
+    .home-page-info .texts .description {
+        font-size: 1.8rem;
+        width: 80%;
+    }
+
+    .home-page-info .texts {
+        align-items: center;
+    }
+}

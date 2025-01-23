@@ -127,11 +127,9 @@
     }
 
     .ctos-button {
-        background-color: var(--dark-color);
-        color: var(--light-color);
         width: 15rem;
         padding: .6rem;
-        font-size: 1.3rem
+        font-size: 1.4rem;
     }
 
     .about-card {
@@ -166,5 +164,68 @@
     .about-page-info .texts {
         gap: 1.8rem;
     }
-    
+
+    .about-card {
+        height: 240px;
+        width: 480px;
+        justify-content: space-around;
+    }
+
+    .avatar {
+        height: 40px;
+    }
+
+    .comment-info {
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+    }
+
+    .comment-info .name,
+    .comment-info .ocupation-local {
+        font-size: 1.1rem;
+    }
+
+    .comment {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 720px) {
+    .about-page-info .texts .title {
+        font-size: 4rem;
+    }
+
+    .about-page-info .texts .description {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .ctos-button {
+        width: 20rem;
+        padding: .8rem;
+        font-size: 1.7rem;
+    }
+
+    .about-card {
+        height: 320px;
+        width: 590px;
+        padding: 3rem;
+    }
+
+    .avatar {
+        height: 50px;
+    }
+
+    .comment-info .name,
+    .comment-info .ocupation-local {
+        font-size: 1.2rem;
+    }
+
+    .comment {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
 }

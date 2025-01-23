@@ -4,12 +4,13 @@
     --main-color: #01DCFF;
 
     --main-font: "League Spartan";
-    
+
     --align-center: center;
     --justify-center: center;
 
     --padding-small-mobile: 3rem 1.5rem;
     --padding-medium-mobile: 3rem 2.2rem;
+    --padding-small-desktop: 3rem 4rem;
 
     --blue-border: .3rem solid var(--main-color);
 }
