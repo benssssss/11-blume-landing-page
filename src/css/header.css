@@ -1,7 +1,6 @@
 .header {
     background: url(../images/pattern-white.png);
     background-size: contain;
-    width: 100%;
     display: none;
 }
 
@@ -10,24 +9,64 @@
     justify-content: var(--justify-center);
 }
 
-.header-container .logotype {
-    display: flex;
-    flex-direction: column;
-    align-items: var(--align-center);
-    gap: .3rem;
-    padding: .4rem;
-}
-
-.header-container .logotype .logo {
-    height: 35px;
-}
-
-.header-container .logotype .text-logo {
-    color: var(--dark-color);
-    font-size: 1rem;
-    font-weight: 700;
-}
-
 .header-container .menu {
     display: none;
+}
+
+.menu .item-list li a:hover {
+    color: var(--main-color);
+    transition: .4s ease-in-out;
+}
+
+@media (min-width: 1280px) {
+
+    .header,
+    .header-container .menu {
+        display: flex;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: var(--justify-center);
+    }
+
+    .header .header-container {
+        justify-content: space-between;
+        width: 1152px;
+    }
+
+    .menu-items {
+        display: flex;
+        align-items: var(--align-center);
+    }
+
+    .menu .item-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1.7rem;
+    }
+
+    .menu .item-list li {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    .header-container .logotype {
+        display: flex;
+        align-items: var(--align-center);
+        gap: .5rem;
+        padding: .7rem 0;
+    }
+
+    .header-container .logotype .logo {
+        height: 45px;
+    }
+
+    .header-container .logotype .text-logo {
+        color: var(--dark-color);
+        font-size: 1.6rem;
+        font-weight: 700;
+        height: 18px;
+    }
 }

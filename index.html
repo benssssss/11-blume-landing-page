@@ -31,9 +31,9 @@
                 <div class="menu">
                     <nav class="menu-items">
                         <ul class="item-list">
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">SOBRE</a></li>
-                            <li><a href="">SERVIÇO</a></li>
+                            <li><a href="#home-page">HOME</a></li>
+                            <li><a href="#about-page">SOBRE</a></li>
+                            <li><a href="#servicos">SERVIÇO</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -43,33 +43,37 @@
 
         <main class="main">
 
-            <section class="home-page">
+            <section class="home-page" id="home-page">
                 <div class="home-page-container">
-                    <div class="home-page-info">
-                        <div class="texts">
-                            <h1 class="title"><span class="alternative-color">SEGURANÇA</span> E FACILIDADE PARA SUA
-                                <span class="alternative-color">VIDA</span>
-                            </h1>
-                            <h3 class="description">Todos seus arquivos, e dados pessoais seguros e centralizados,
-                                garantindo sua <span class="alternative-color">segurança</span> com monitoramento via
-                                cameras e reconhecimento facial
-                            </h3>
+                    <div class="home-page-content">
+                        <div class="home-page-info">
+                            <div class="texts">
+                                <h1 class="title"><span class="alternative-color">SEGURANÇA</span> E FACILIDADE PARA SUA
+                                    <span class="alternative-color">VIDA</span>
+                                </h1>
+                                <h3 class="description">Todos seus arquivos, e dados pessoais seguros e centralizados,
+                                    garantindo sua <span class="alternative-color">segurança</span> com monitoramento
+                                    via
+                                    cameras e reconhecimento facial
+                                </h3>
+                            </div>
+                            <div class="email-form">
+                                <form>
+                                    <input class="email-input" type="email" id="email" name="email"
+                                        placeholder="Insira seu email...">
+                                    <input class="send-button" type="submit" value="COMEÇE AQUI">
+                                </form>
+                            </div>
                         </div>
-                        <div class="email-form">
-                            <form action="/#">
-                                <input class="email-input" type="email" id="email" name="email"
-                                    placeholder="Insira seu email...">
-                                <input class="send-button" type="submit" value="COMEÇE AQUI">
-                            </form>
+
+                        <div class="home-image">
+                            <img src="src/images/loading-gif.gif" alt="">
                         </div>
-                    </div>
-                    <div class="home-image">
-                        <img src="src/images/loading-gif.gif" alt="">
                     </div>
                 </div>
             </section>
 
-            <section class="about-page">
+            <section class="about-page" id="about-page">
                 <div class="about-page-container">
                     <div class="about-page-info">
                         <div class="texts">
@@ -109,7 +113,7 @@
                 </div>
             </section>
 
-            <section class="servico">
+            <section class="servico" id="servicos">
                 <div class="servico-page-container">
                     <div class="servico-page">
 
@@ -122,7 +126,7 @@
                             </p>
                         </div>
                         <div class="email-form mail-button">
-                            <form class="mail-button-form" action="/#">
+                            <form class="mail-button-form">
                                 <input class="email-input" type="email" id="email" name="email"
                                     placeholder="Insira seu email...">
                                 <input class="send-button" type="submit" value="COMEÇE AQUI">

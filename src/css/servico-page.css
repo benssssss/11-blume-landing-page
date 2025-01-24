@@ -57,7 +57,7 @@
     }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 720px) {
     .servico-page .title {
         font-size: 4rem;
     }
@@ -80,5 +80,36 @@
 
     .mail-button-form .email-input {
         width: 100%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .servico-page {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .servico-page .text {
+        width: 45%;
+        gap: .8rem;
+    }
+
+    .servico-page .title {
+        font-size: 2.2rem;
+    }
+
+    .servico-page .description {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+
+
+    .servico-page .mail-button {
+        width: 45%;
+        margin: 0;
+    }
+
+    .mail-button .mail-button-form {
+       justify-content: start;
     }
 }

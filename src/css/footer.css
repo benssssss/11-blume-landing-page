@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: var(--justify-center);
 }
 
 .main-footer {
@@ -37,6 +37,11 @@
 
 .social-media-icons {
     height: 27.5px;
+}
+
+.social-media-icons a:hover {
+    color: var(--main-color);
+    transition: .4s ease-in-out;
 }
 
 .ctos-icon {
@@ -98,5 +103,14 @@
     .ctos-icon img {
         height: 2.3rem;
     }
+}
 
+@media (min-width: 1280px) {
+    .social-media-icons {
+        height: 50px;
+    }
+
+    .icon {
+        font-size: 3.5rem;
+    }
 }

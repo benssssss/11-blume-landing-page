@@ -18,6 +18,11 @@
     font-weight: 700;
 }
 
+.send-button:hover {
+    transition: .4s ease-in-out;
+    background-color: var(--main-color);
+}
+
 @media (min-width: 350px) {
     .email-form form {
         width: 300px;
@@ -68,9 +73,16 @@
 
     .email-form {
         display: flex;
-        justify-content: center;
+        justify-content: var(--justify-center);
     }
+
     .email-form form {
         width: 480px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .email-form form {
+        width: 575px;
     }
 }

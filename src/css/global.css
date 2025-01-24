@@ -26,7 +26,7 @@ html {
 .servico {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: var(--align-center);
 }
 
 @media (min-width: 350px) {
@@ -85,5 +85,20 @@ html {
     .servico-page-container {
         padding: var(--padding-small-desktop);
         width: 720px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .header,
+    .main-footer {
+        width: 1280px;
+    }
+
+    .about-page-container,
+    .home-page-container,
+    .servico-page-container {
+        padding: var(--padding-medium-desktop);
+        width: 1280px;
     }
 }

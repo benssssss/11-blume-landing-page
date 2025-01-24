@@ -11,6 +11,7 @@
     --padding-small-mobile: 3rem 1.5rem;
     --padding-medium-mobile: 3rem 2.2rem;
     --padding-small-desktop: 3rem 4rem;
+    --padding-medium-desktop: 4.7rem 4rem;
 
     --blue-border: .3rem solid var(--main-color);
 }
