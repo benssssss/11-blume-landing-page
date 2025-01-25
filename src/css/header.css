@@ -93,3 +93,10 @@
         height: 18px;
     }
 }
+
+@media (min-width: 1440px) {
+    .header .header-container {
+
+        width: 1310px;
+    }
+}
