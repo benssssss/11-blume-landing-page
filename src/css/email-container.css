@@ -19,7 +19,7 @@
 }
 
 .send-button:hover {
-    transition: .4s ease-in-out;
+    transition: var(--hover-transition);
     background-color: var(--main-color);
 }
 

@@ -41,7 +41,7 @@
 
 .social-media-icons a:hover {
     color: var(--main-color);
-    transition: .4s ease-in-out;
+    transition: var(--hover-transition);
 }
 
 .ctos-icon {

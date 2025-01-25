@@ -11,7 +11,7 @@
 }
 
 .about-page .about-page-info a:hover {
-    transition: .4s ease-in-out;
+    transition: var(--hover-transition);
     background-color: var(--main-color);
     border-bottom: .3rem solid var(--dark-color);
     color: var(--dark-color);

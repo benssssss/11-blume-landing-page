@@ -47,7 +47,7 @@
 
 .home-page-info .texts .description {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: var(--font-regular);
 }
 
 .home-page-info .texts {

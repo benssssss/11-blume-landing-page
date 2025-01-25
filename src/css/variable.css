@@ -4,11 +4,15 @@
     --main-color: #01DCFF;
 
     --main-font: "League Spartan";
+    --font-bold: 700;
+    --font-regular: 400;
 
     --align-center: center;
     --justify-center: center;
     --flex-column: column;
     --flex: flex;
+
+    --hover-transition: 0.4s ease-in-out;
 
     --padding-small-mobile: 3rem 1.5rem;
     --padding-medium-mobile: 3rem 2.2rem;
