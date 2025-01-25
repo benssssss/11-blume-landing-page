@@ -1,17 +1,17 @@
 .footer {
     width: var(--max-width);
-    display: flex;
+    display: var(--flex);
     justify-content: var(--justify-center);
 }
 
 .main-footer {
-    display: flex;
+    display: var(--flex);
     justify-content: space-between;
     padding: 1.5rem;
 }
 
 .footer .logotype {
-    display: flex;
+    display: var(--flex);
     flex-direction: row;
     align-items: var(--align-center);
     gap: .3rem;
@@ -24,7 +24,7 @@
 
 .icons {
     color: var(--dark-color);
-    display: flex;
+    display: var(--flex);
      flex-direction: var(--flex-column);
     align-items: end;
     justify-content: space-around;

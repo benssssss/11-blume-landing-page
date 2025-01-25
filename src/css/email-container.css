@@ -1,5 +1,5 @@
 .email-form form {
-    display: flex;
+    display: var(--flex);
     gap: .6rem;
     width: 270px;
     justify-content: space-between;
@@ -72,7 +72,7 @@
 @media (min-width: 720px) {
 
     .email-form {
-        display: flex;
+        display: var(--flex);
         justify-content: var(--justify-center);
     }
 

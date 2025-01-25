@@ -24,7 +24,7 @@ html {
 .home-page,
 .about-page,
 .servico {
-    display: flex;
+    display: var(--flex);
     flex-direction: var(--flex-column);
     align-items: var(--align-center);
 }

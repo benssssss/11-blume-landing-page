@@ -1,35 +1,38 @@
 .home-page {
     background-color: var(--dark-color);
     min-height: 100vh;
-    display: flex;
-     flex-direction: var(--flex-column);
+    display: var(--flex);
+    flex-direction: var(--flex-column);
     justify-content: var(--justify-center);
 }
 
 .home-page .home-page-container {
-    display: flex;
-    flex-direction: column-reverse;
+    display: var(--flex);
     gap: 2rem;
 }
 
 .home-page-content {
-    display: flex;
+    display: var(--flex);
+}
+
+.home-page-content,
+.home-page .home-page-container {
     flex-direction: column-reverse;
 }
 
 .home-page-container .home-image {
-    display: flex;
+    display: var(--flex);
     justify-content: var(--justify-center);
 }
 
 .home-page-container .home-image img {
     height: 14rem;
-    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 .home-page-container .home-page-info {
-    display: flex;
-     flex-direction: var(--flex-column);
+    display: var(--flex);
+    flex-direction: var(--flex-column);
     gap: 2.7rem;
 }
 
@@ -48,8 +51,8 @@
 }
 
 .home-page-info .texts {
-     flex-direction: var(--flex-column);
-    display: flex;
+    flex-direction: var(--flex-column);
+    display: var(--flex);
     gap: 1.7rem;
 }
 
@@ -65,11 +68,6 @@
     .home-page-info .texts .description {
         font-size: 1.3rem;
     }
-
-    .home-page-container .home-image img {
-        height: 15rem;
-        padding: 1rem;
-    }
 }
 
 @media (min-width: 420px) {
@@ -79,11 +77,6 @@
 
     .home-page-info .texts .description {
         font-size: 1.5rem;
-    }
-
-    .home-page-container .home-image img {
-        height: 15rem;
-        padding: 1rem;
     }
 }
 
@@ -97,22 +90,17 @@
     }
 
     .home-page-container .home-image img {
-        height: 18rem;
+        height: 15rem;
+        margin-bottom: 1rem;
     }
 }
 
 @media (min-width: 720px) {
-
-    .home-page {
-        min-height: 90vh;
-    }
-
     .home-page-info .texts .title {
         font-size: 4rem;
     }
 
     .home-page-info .texts .description {
-        font-size: 1.8rem;
         width: 80%;
     }
 
@@ -131,7 +119,7 @@
     }
 
     .home-page-content {
-        display: flex;
+        display: var(--flex);
         flex-direction: row;
         justify-content: space-between;
     }
@@ -170,6 +158,6 @@
     }
 
     .home-page-info {
-        justify-content: center;
+        justify-content: var(--justify-center);
     }
 }

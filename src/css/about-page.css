@@ -5,7 +5,7 @@
 }
 
 .about-page-container {
-    display: flex;
+    display: var(--flex);
      flex-direction: var(--flex-column);
     gap: 2rem;
 }
@@ -18,13 +18,13 @@
 }
 
 .about-page .about-page-info {
-    display: flex;
+    display: var(--flex);
      flex-direction: var(--flex-column);
     gap: 2rem;
 }
 
 .about-page-info .texts {
-    display: flex;
+    display: var(--flex);
      flex-direction: var(--flex-column);
     gap: 1rem;
 }
@@ -57,13 +57,13 @@
     padding: 1.5rem;
     height: 155px;
     width: 270px;
-    display: flex;
+    display: var(--flex);
      flex-direction: var(--flex-column);
     gap: 1rem;
 }
 
 .people-info {
-    display: flex;
+    display: var(--flex);
     flex-direction: row;
     align-items: var(--align-center);
     gap: .5rem;
@@ -183,7 +183,7 @@
     }
 
     .comment-info {
-        display: flex;
+        display: var(--flex);
          flex-direction: var(--flex-column);
         gap: .2rem;
     }
