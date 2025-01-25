@@ -1,21 +1,45 @@
 .header {
     background: url(../images/pattern-white.png);
     background-size: contain;
-    display: none;
+    width: var(--max-width);
 }
 
 .header-container {
     display: flex;
     justify-content: var(--justify-center);
+    padding: 1rem;
 }
 
-.header-container .menu {
+.header-container .logotype {
     display: none;
+}
+
+.menu .item-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.menu .item-list li a {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .menu .item-list li a:hover {
     color: var(--main-color);
     transition: .4s ease-in-out;
+}
+
+@media (min-width: 550px) {
+
+    .header-container .menu {
+        display: flex;
+    }
+
+    .header-container .menu .item-list {
+        gap: 5rem;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -26,12 +50,13 @@
     }
 
     .header {
-        width: 100%;
+        width: var(--max-width);
         display: flex;
         justify-content: var(--justify-center);
     }
 
     .header .header-container {
+        padding: 0;
         justify-content: space-between;
         width: 1152px;
     }

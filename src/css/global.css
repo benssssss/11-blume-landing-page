@@ -25,7 +25,7 @@ html {
 .about-page,
 .servico {
     display: flex;
-    flex-direction: column;
+    flex-direction: var(--flex-column);
     align-items: var(--align-center);
 }
 
@@ -100,5 +100,20 @@ html {
     .servico-page-container {
         padding: var(--padding-medium-desktop);
         width: 1280px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .header,
+    .main-footer {
+        width: 1440px;
+    }
+
+    .about-page-container,
+    .home-page-container,
+    .servico-page-container {
+        padding: var(--padding-medium-desktop);
+        width: 1440px;
     }
 }
