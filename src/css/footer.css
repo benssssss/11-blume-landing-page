@@ -25,7 +25,7 @@
 .icons {
     color: var(--dark-color);
     display: var(--flex);
-     flex-direction: var(--flex-column);
+    flex-direction: var(--flex-column);
     align-items: end;
     justify-content: space-around;
     height: 55px;
@@ -53,14 +53,12 @@
 }
 
 @media (min-width: 420px) {
-    .footer .logotype .logo {
-        height: 65px;
-    }
 
     .main-footer {
         padding: 1.5rem 2rem;
     }
 
+    .footer .logotype .logo,
     .icons {
         height: 65px;
     }
